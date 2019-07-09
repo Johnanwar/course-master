@@ -35,11 +35,33 @@
   /* ennnnnd first one */
 
 
-
-  .swiper-container {
+  .team-persons .swiper-container{	
+    overflow: visible!important;
+    margin-top: 28px;
     width: 100%;
+
   }
-  /* .swiper-slide {
-    text-align: center;
-  }  */
+ .swiper-button-next , .swiper-button-prev {
+   background-image: none;
+   outline: none;
+ }
+ 
+ 
+ .swiper-button-next i , .swiper-button-prev i{
+  font-size: 18px;
+  color: #fff!important;
+  background-color: #007aff;
+  padding: 5px;
+  border-radius: 5px;;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  opacity: .6;
+}
+.swiper-button-next:hover i , .swiper-button-prev:hover i{
+  opacity: 1;
+  color: #007aff!important;
+  background-color: #fff;
+}
 
